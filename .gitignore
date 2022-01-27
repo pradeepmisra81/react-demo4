@@ -1,15 +1,18 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
+/style-demo1/node_modules
 /node_modules
-/.pnp
+/style-demo1/.pnp
 .pnp.js
 
 # testing
 /coverage
+/style-demo1/coverage
 
 # production
 /build
+/style-demo1/build
 
 # misc
 .DS_Store
@@ -21,3 +24,15 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+yarn.lock
+#................
+/style-demo1/.DS_Store
+/style-demo1/.env.local
+/style-demo1/.env.development.local
+/style-demo1/.env.test.local
+/style-demo1/.env.production.local
+
+/style-demo1/npm-debug.log*
+/style-demo1/yarn-debug.log*
+/style-demo1/yarn-error.log*
+/style-demo1/yarn.lock
